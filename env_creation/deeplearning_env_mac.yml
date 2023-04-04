@@ -1,0 +1,23 @@
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - ipykernel
+  - ipython
+  - jupyter
+  - matplotlib
+  - numpy=1.19.2
+  - pandas=1.3.5
+  - python=3.8.15
+  - pytorch=1.4.0
+  - scikit-learn=0.24.1
+  - seaborn
+  - tensorflow=2.7.0
+  - torchvision
+  - tqdm
+  # consider running 'conda install torchvision cpuonly'
+  # - pip:
+#       - pyqt5-sip==4.19.18
+#       - pyqtchart==5.12
+#       - pyqtwebengine==5.12.1
