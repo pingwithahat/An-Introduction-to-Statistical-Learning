@@ -5,6 +5,7 @@ channels:
 dependencies:
   - ipykernel
   - ipython
+  # - joblib=1.2.0
   - jupyter
   - matplotlib
   - numpy=1.19.2
