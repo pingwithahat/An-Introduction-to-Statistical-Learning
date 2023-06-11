@@ -11,6 +11,6 @@ conda activate "$1"
 
 conda list --explicit > "$2.txt"
 
-pip list --format=freeze > "pip_$2"
+pip list --format=freeze > "pip_$2.txt"
 
 conda deactivate
